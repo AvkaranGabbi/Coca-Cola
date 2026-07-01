@@ -1,0 +1,120 @@
+@font-face
+{
+  font-family: 'Gothic';
+  src: url('/fonts/SpecialGothicExpandedOne-Regular.ttf') format('truetype');
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Special Gothic Expanded One', sans-serif;
+}
+html,
+body
+{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar
+{
+  display:none;
+}
+#root
+{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.nav
+{
+  padding-top: -60px;
+}
+.nav i, .logo{
+  margin-right: 50px;
+  margin-top: -50px;
+}
+
+.full {
+  backdrop-filter: blur(10px); /* Main blur */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  background-color: rgba(0, 0, 0, 0.2); /* Optional: dark transparent layer */
+}
+
+.full h4
+{
+  font-family: "Gothic";
+}
+
+.desc
+{
+  overflow-y: hidden;
+}
+
+.desctext1, .desctext2
+{
+  font-family: "Gothic";
+  width: 447px;
+}
+
+.refresh
+{
+  font-family: 'Gothic';
+  margin-top: 10px;
+}
+.arrow
+{
+  margin-top: 5px;
+}
+
+.marque
+{
+  gap: 3vw;
+  padding: 0 1.5vw;
+  flex-shrink: 0;
+  transform: translateX(-100%);
+}
+
+.move
+{
+  padding-top: 10px;
+}
+
+.main2
+{
+  position: relative;
+}
+
+.sayhi
+{
+  margin-left: 300px;
+  padding-top: 150px;
+  font-family: 'Gothic';
+}
+
+.brands
+{
+  display: inline-block;
+  margin-left: 60px;
+  margin-top: 100px;
+}
+
+.string
+{
+  padding-top: 100px;
+  margin-top: 30px;
+}
+
+.string2
+{
+  width: 1300px;
+  height: 10px;
+  overflow: visible;
+  margin-left: 60px;
+}
+
+.scrolls
+{
+  overflow: hidden;
+}
