@@ -1,12 +1,65 @@
-# React + Vite
+Coca-Cola Website Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Coca-Cola themed website built using React and Vite. The project focuses on creating a visually appealing user interface with smooth animations and an engaging user experience.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Responsive design
+* Modern React components
+* Fast development with Vite
+* Smooth animations and transitions
+* Clean and organized project structure
 
-## Expanding the ESLint configuration
+Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* Vite
+* JavaScript
+* HTML5
+* CSS3
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/AvkaranGabbi/Coca-Cola.git
+
+Navigate to the project directory:
+
+cd Coca-Cola
+
+Install the dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+The application will start locally. Open the URL displayed in the terminal (typically http://localhost:5173) in your browser.
+
+Build for Production
+
+To create an optimized production build:
+
+npm run build
+
+To preview the production build locally:
+
+npm run preview
+
+Project Structure
+
+Coca-Cola/
+├── public/
+├── src/
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+
+Author
+
+Avkaran Gabbi
+
+GitHub: https://github.com/AvkaranGabbi
