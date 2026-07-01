@@ -2,6 +2,9 @@ Coca-Cola Website Clone
 
 A modern and responsive Coca-Cola themed website built using React and Vite. The project focuses on creating a visually appealing user interface with smooth animations and an engaging user experience.
 
+TO DIRECTLY PREVIEW AND RUN THIS INTO YOUR BROWSER, RUN THE FOLLOWING LINK:
+https://coca-cola-lac.vercel.app
+
 Features
 
 * Responsive design
